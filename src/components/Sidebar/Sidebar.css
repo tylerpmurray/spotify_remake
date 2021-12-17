@@ -1,0 +1,52 @@
+.logo {
+  width: 131px;
+  height: 40px;
+  margin: 25px;
+}
+
+.side-bar li {
+  padding: 8px 24px;
+}
+
+/* icon and text lists bottom */
+
+.playlist-hightlight li {
+  display: flex;
+}
+.playlist-hightlight p {
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+}
+
+.playlist-hightlight img {
+  height: 24px;
+  width: 24px;
+}
+/* icon and text lists top */
+
+.home-buttons li {
+  display: flex;
+  position: relative;
+  right: 10px;
+}
+.home-buttons p {
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+}
+
+.home-buttons img {
+  height: 24px;
+  width: 24px;
+}
+
+.home-buttons {
+  padding: 8px;
+}
+
+.install-app {
+  position: relative;
+  bottom: 0px;
+  padding: 15px;
+}

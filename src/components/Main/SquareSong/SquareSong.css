@@ -1,0 +1,24 @@
+
+  
+  
+  
+  /*square songs*/
+  .square-song {
+    height: 177px;
+    width: 177px;
+    border-radius: 12px;
+  }
+  
+
+  
+  .square-item {
+    margin: 12px;
+    padding: 16px 16px 34px 16px;
+    border-radius: 5px;
+    background-color: #181818;
+  }
+  
+  .square-item p {
+    color: #b3b3b3;
+    font-family: "circular-light";
+  }

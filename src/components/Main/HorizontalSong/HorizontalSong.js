@@ -1,4 +1,6 @@
-const HorizontalSong = ({ src, alt, name }) => {
+import "./HorizontalSong.css";
+
+const HorizontalSong = ({ src, alt, name, onClick }) => {
   return (
     <div className="horizontal-song">
       <img className="image" src={src} alt={alt} />

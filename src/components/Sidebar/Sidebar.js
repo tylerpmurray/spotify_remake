@@ -8,6 +8,7 @@ import library from "../../icons/library_white.png";
 import install from "../../icons/install.png";
 import PlaylistList from "./PlaylistsList/PlaylistList";
 import { useState } from "react";
+import "../Sidebar/Sidebar.css";
 
 const Sidebar = () => {
   const [playlists, setPlaylists] = useState([
@@ -18,7 +19,6 @@ const Sidebar = () => {
 
   const createPlaylist = () => {
     const addedPlaylist = window.prompt("Add New Playlist");
-    console.log(addedPlaylist);
     setPlaylists((prevState) => {
       return [...prevState, addedPlaylist];
     });

@@ -1,0 +1,23 @@
+.horizontal-song {
+  /* border: 1px solid white; */
+  background-color: #2d2f30;
+  margin: 15px 3% 0 3%;
+  width: 25%;
+  border-radius: 5px;
+  height: 80px;
+  position: relative;
+  line-height: 80px;
+}
+
+.horizontal-song p {
+  position: inherit;
+  left: 15px;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
